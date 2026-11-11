@@ -3,7 +3,7 @@
 A library catalogue and shelf locator for **Sarala Birla University, Ranchi**.
 Students search for a book and see exactly which rack, shelf and slot it sits on, and whether it is in right now. Library staff log in to issue and return books, track due dates and calculate fines.
 
-> Live site:
+> Live site: locatelib.vercel.app
 
 ## Why this project
 
@@ -41,7 +41,6 @@ Finding a book in a large library usually means asking the librarian or walking 
 ```
 .
 ├── index.html       # the whole front end
-├── supabase-setup.sql   # tables, security rules, functions and starter books
 └── README.md
 ```
 
