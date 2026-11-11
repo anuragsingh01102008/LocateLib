@@ -40,7 +40,7 @@ Finding a book in a large library usually means asking the librarian or walking 
 
 ```
 .
-├── locatelib.html       # the whole front end
+├── index.html       # the whole front end
 ├── supabase-setup.sql   # tables, security rules, functions and starter books
 └── README.md
 ```
@@ -72,17 +72,13 @@ const SUPABASE_ANON_KEY='your-anon-or-publishable-key';
 Both values are in **Project Settings → API**.
 
 ### 5. Run it
-Open `locatelib.html` in a browser. It needs an internet connection to reach Supabase.
+Open `index.html` in a browser. It needs an internet connection to reach Supabase.
 
 If the keys are missing, the page opens in a read-only demo mode with sample data and shows a notice.
 
 ## Deploying
 
 Because the site is a single static file, you can host it for free.
-
-**GitHub Pages:** go to **Settings → Pages**, choose the branch and the root folder, and rename `locatelib.html` to `index.html` so it loads at the site address.
-
-**Netlify:** drag the folder onto the Netlify dashboard.
 
 ## Security
 
